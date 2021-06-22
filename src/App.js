@@ -1,12 +1,14 @@
+import {BrowserRouter} from 'react-router-dom'
+import Routes from './routes'
 
 
 function App() {
+
   return (
-    <>
-    <h1>HELLO WORLD!!!!</h1>
-    <div>login</div>
-    <div>Catalogo</div>
-    </>
+    <BrowserRouter>
+      <Routes/>
+    </BrowserRouter>
+    
   );
 }
 
